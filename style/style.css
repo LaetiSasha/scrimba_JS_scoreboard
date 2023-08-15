@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .scoreboard {
+  width: 100%;
+  max-width: 575px;
+  height: 100%;
+  max-height: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b244a;
+}
+body .scoreboard .home__guest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 106px;
+}
+body .scoreboard .home__guest h1 {
+  font-family: verdana;
+  font-size: 40px;
+  color: #eee;
+}
+body .scoreboard .counters {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 26px;
+}
+body .scoreboard .counters .home__counter {
+  width: 155px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #080001;
+}
+body .scoreboard .counters .home__counter p {
+  color: #f94f6d;
+  font-family: Cursed Timer ULiL;
+  font-size: 90px;
+  margin-bottom: 75px;
+}
+body .scoreboard .counters .guest__counter {
+  width: 155px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #080001;
+}
+body .scoreboard .counters .guest__counter p {
+  color: #f94f6d;
+  font-family: Cursed Timer ULiL;
+  font-size: 90px;
+  margin-bottom: 75px;
+}
+body .scoreboard .score {
+  display: flex;
+  gap: 100px;
+  margin-bottom: 69px;
+}
+body .scoreboard .score .score__home {
+  display: flex;
+  justify-content: space-between;
+  width: 155px;
+  height: 45px;
+}
+body .scoreboard .score .score__home .score1,
+body .scoreboard .score .score__home .score2,
+body .scoreboard .score .score__home .score3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+}
+body .scoreboard .score .score__home .score1 p,
+body .scoreboard .score .score__home .score2 p,
+body .scoreboard .score .score__home .score3 p {
+  font-family: Cursed Timer ULiL;
+  font-size: 18px;
+  color: #9aabd8;
+}
+body .scoreboard .score .score__guest {
+  display: flex;
+  justify-content: space-between;
+  width: 155px;
+  height: 45px;
+}
+body .scoreboard .score .score__guest .score4,
+body .scoreboard .score .score__guest .score5,
+body .scoreboard .score .score__guest .score6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+}
+body .scoreboard .score .score__guest .score4 p,
+body .scoreboard .score .score__guest .score5 p,
+body .scoreboard .score .score__guest .score6 p {
+  font-family: Cursed Timer ULiL;
+  font-size: 18px;
+  color: #9aabd8;
+}
+
+/*# sourceMappingURL=style.css.map */
